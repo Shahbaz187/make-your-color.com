@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Signika&family=Space+Grotesk&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  transition: 0.8s;
+}
+.main {
+  top: 0;
+  height: 91vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 30rem;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 15px;
+  background: #fff;
+align-items: center;
+text-align: center;
+font-family: "Roboto", sans-serif;
+letter-spacing: 5px;
+}
+.container button {
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border: none;
+ border-radius: 7px;  
+margin-top: 7px;  
+font-family: "Roboto", sans-serif;
+}
+@media (max-width: 768px) {
+.container {
+  width: 25rem;
+}
+.container h1{
+  font-size: 3.3rem;
+}
+.container button{
+  font-size: 20px;
+}
+}
+@media (max-width: 425px) {
+.container {
+  width: 18rem;
+}
+.container h1{
+  font-size: 2.3rem;
+}
+.container button{
+  font-size: 20px;
+}
+}
