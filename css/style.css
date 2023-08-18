@@ -59,3 +59,19 @@ font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
 }
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #49494971;
+  padding: 15px;
+}
+footer h1{
+  font-size: 1.6rem;
+}
+footer span{
+color: #ffffff;
+margin-left: 10px;
+font-size: 22px;
+font-weight: 500;
+}
